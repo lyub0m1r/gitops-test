@@ -6,11 +6,10 @@ WORKDIR /usr/src/app
 
 # Copy package.json and install dependencies
 COPY package.json /usr/src/app
-RUN ls -l && pwd
 RUN npm install
 
 # Bundle app source
-COPY . .
+COPY src/* .
 
 # Expose the port the app runs on
 EXPOSE 3000
