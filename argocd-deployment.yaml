@@ -9,6 +9,6 @@ spec:
     server: https://kubernetes.default.svc 
   project: default 
   source:
-    repoURL: https://github.com/pietrolibro/gitops-k8s-deployments-book-weather-app.git
+    repoURL: https://github.com/lyub0m1r/gitops-test.git
     path: deployment
     targetRevision: main

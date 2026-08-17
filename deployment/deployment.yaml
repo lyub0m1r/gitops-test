@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: zurich-weather-app
-        image: pietrolibro/zurich-weather-app:1.0
+        image: lb08chaos/gitops-k8s-deployments:main
         ports:
         - containerPort: 8080
         # resources:
